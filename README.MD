@@ -1,4 +1,4 @@
-
+<img src="https://i.ibb.co/sVtSPt8/logo.jpg" alt="logo"  align ="center" border="0"></a>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/shimaski/CURSOJS?color=%2304D361">
@@ -40,5 +40,5 @@
 
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE de Desenvolvimento. 
 * [Youtube](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-* [Gustavo Guanabara] (https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ ) - Referência
+* [Gustavo Guanabara](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ ) - Referência
 
