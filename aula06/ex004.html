@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso javascript</title>
+    
+<style> /* estilo(CSS) sempre fica depois do title e antes do fechamento do head */
+   
+       body{
+background-color: rgb(20, 21, 94);
+color: rgb(255, 252, 97);
+font: normal 30pt arial;
+       }
+    </style>
+
+</head>
+
+
+<body> 
+
+
+    <!----escript fica antes de fechamento do body---->
+    <script>   
+    var nome = window.prompt('Qual é seu nome?');
+    var slogan = 'BubumGuloso';
+
+    document.write(`Olá <strong> ${nome}</strong> seu merda ! , o Seu nome tem ${nome.length} letras. <br/>`);
+    // variavel que nesse exemplo é o ${nome.lenght} // ela diz o tamanho  de uma string, quantas letras tem uma string
+
+    document.write(`deixando tudo em maiusculo ${slogan.toUpperCase()} `);
+
+
+
+
+
+
+
+      //anotações 
+
+    // document.write  ele joga a informaçao na tela tipo printf 
+    //s.lenght // ela diz o tamanho  de uma string, quantas letras tem uma string
+     //s.toUpperCase() // ele  vai jogar tudo para letra 'MAIUSCULAS'
+     //s.LowerCase() // ele vai jogar tudo para letra 'minusculas'
+
+// para fazer a conversao de numero  
+//exemplo var n1=1545.5 
+// n1.toFixed(2); fixo para duas casas decimais 
+// '1545.50'
+// se caso quiser ao inves de ser "." (ponto) e  ser "," (virgula ) e aqui no brasil se usa bastante virgula 
+// se usa o
+// exemplo n1.toFixed(2).replace('.', ',');  voce troca de ponto prara virgula
+ 
+
+//comando para saber um salario ou pra printar na tela o valor do salario com "R$"
+     //n1.toLocaleString() que é uma string localicada , ou seja localida por parte do mundo 
+     //n1.toLocaleString('pt-BR') localizando a string em portugues br 
+     //n1.toLocaleString('pt-BR', {style:'currency'}) para ele mostrar o valor monetário currency:'BRL'(real do brasil)
+     ////n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})
+     
+     
+     </script>
+
+    
+
+
+</body>
+</html>
