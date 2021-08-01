@@ -18,7 +18,7 @@
 
 <h2 Sobre o Projeto</h2>
 
-<p> Mini projetos em javascript-Apenas o começo de tudo.</p>
+<p> Minis projetos em javascript - O começo de tudo.</p>
 
 ---
 
@@ -32,13 +32,12 @@
 * Regras de variávies 
 * Template String
 
-## Apenas o começo de tudo, evoluir sempre!.
+## O começo de tudo,o ponta pé inicial.
 
 
 
 <h3>🛠Ferramentas</h3>
 
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE de Desenvolvimento. 
-* [Youtube](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 * [Gustavo Guanabara](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ ) - Referência
 
