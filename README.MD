@@ -32,7 +32,7 @@
 * Regras de variávies 
 * Template String
 
-## O começo de tudo,o ponta pé inicial.
+## O ponta pé inicial da minha caminhada ao desenvolvimento web.
 
 
 
