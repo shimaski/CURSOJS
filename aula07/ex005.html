@@ -11,13 +11,97 @@
 
 
     <script>
-//---> operadores 
-// o javascript possui varias familias de operadores
-//operadores aritimeticos  "+"  "-"  "*"  "/"  "%"   "**", são operadores para fazer caluclos 
+/* 
+
+// para fazer a conversao de numero  
+//exemplo var n1=1545.5 
+// n1.toFixed(2); fixo para duas casas decimais 
+// '1545.50'
+// se caso quiser ao inves de ser "." (ponto) e  ser "," (virgula ) e aqui no brasil se usa bastante virgula 
+// se usa o
+// exemplo n1.toFixed(2).replace('.', ',');  voce troca de ponto prara virgula
+ 
+
+//comando para saber um salario ou pra printar na tela o valor do salario com "R$"
+     //n1.toLocaleString() que é uma string localicada , ou seja localida por parte do mundo 
+     //n1.toLocaleString('pt-BR') localizando a string em portugues br 
+     //n1.toLocaleString('pt-BR', {style:'currency'}) para ele mostrar o valor monetário currency:'BRL'(real do brasil)
+     ////n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})
+     
+
+
+--> operadores 
+
+
+aritméticos
+atribução
+relacionais
+lógicos
+ternário
+
+
+ O javascript possui varias familias de operadores
+
+-----> operadores aritimeticos  "+"  "-"  "*"  "/"  "%"   "**", são operadores para fazer caluclos 
+
+
+5 + 2-> 7
+5 - 2-> 3
+5 * 2-> 10
+5 / 2->  2.5 divisão real
+5 % 2-> 1  o %  é o resto da divisão inteira
+5 ** 2-> 25 é a potêncio (raiz quadrada)
+
+CUIDADO COM USO DE OPERADORES
+ TANTO NA PROMRAÇAO QUANTO NA MATEMATICA TEM O CHAMADO PRECEDENCIA DE OPERADORES 
+
+ EXEMPLO :  5+3 /2  NAO É IGUAL A 4 , SE COMEÇA PRIMEIRO PELA DIVISAO E DEPOIS PARA SOMA O RESULTADO CORRETO É 6.5
+
+
+SE CASO FOR QUERER SOMAR ANTES E DEPOIS DIVIDIR USASSE ()
+
+EXEMPLO  : (5+3)/2 = 4 É IGUAL NA MATEMÁTICA.
+ 
+
+ A ORDE DE PRECENDENCIA 
+  
+  A ORDEM É SEMPRE ESSA  NA LIGUAGEM JAVA SCRIPT , NA VERDADE EM QUALQUER LIGUAGEM
+
+
+TUDO E QUALQUER EXPRESSÃO ELA ,EM PRIMEIRO LUGAR, É ANALISADO TODOS OS PARENTESES, DEPOIS DOS PARETENSE , VAI FAZER  AS POTENCIAS,
+E EM SEGUIDA DAS POTENCIAS , NÓS TEMOS A MULTIPLICAÇAO , A DIVISÃO E O RESTO DA DIVISÃO.
+
+()  
+
+** 
+
+ *  / %  ELES TEM A MESMA ORDEM DE PRECEDENCIA , QUALQUER UM DOS 3 VEM ANTES, SE MAIS DE UM DELES TIVER NA MESMA EXPRESSAO, VOCE VAI FAZER DA ESQUERDA PARA DIREITA QUEM APARECER PRIMEIRO.
+
+ + -
+
+ ordem de precedencia 
+ 
+ Atribuição simples EXEMPLOS:
+
+var a = 5+3                8
+var b = a % 5           3
+var c =  5 * b ** 2            45
+var d = 10 - a / 2          6
+var e = 6 * 2  / d            2
+var f = b % e + 4 / e     3  temos que fazer primeiro o b % e e depois o 4/e  b=3 e e=2
+ 3%2 é 3 dividido por 2 , o resto ,3 dividido por 2 dá 1 e resta 1, a soma foi a ultima ser feita pois isso se chama de ordem de precedencia.
 
 
 
 
+
+
+
+
+
+
+
+*/
 
     </script>
 </body>
