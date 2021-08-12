@@ -67,7 +67,7 @@ EXEMPLO  : (5+3)/2 = 4 É IGUAL NA MATEMÁTICA.
   A ORDEM É SEMPRE ESSA  NA LIGUAGEM JAVA SCRIPT , NA VERDADE EM QUALQUER LIGUAGEM
 
 
-TUDO E QUALQUER EXPRESSÃO ELA ,EM PRIMEIRO LUGAR, É ANALISADO TODOS OS PARENTESES, DEPOIS DOS PARETENSE , VAI FAZER  AS POTENCIAS,
+TUDO E QUALQUER EXPRESSÃO,ELA EM PRIMEIRO LUGAR, É ANALISADO TODOS OS PARENTESES, DEPOIS DOS PARETENSE , VAI FAZER  AS POTENCIAS,
 E EM SEGUIDA DAS POTENCIAS , NÓS TEMOS A MULTIPLICAÇAO , A DIVISÃO E O RESTO DA DIVISÃO.
 
 
@@ -90,7 +90,7 @@ var d = 10 - a / 2          6
 var e = 6 * 2  / d            2
 var f = b % e + 4 / e     3  temos que fazer primeiro o b % e e depois o 4/e  b=3 e e=2
 
-3%2 é 3 dividido por 2 , o resto ,3 dividido por 2 dá 1 e resta 1, a soma foi a ultima ser feita pois isso se chama de ordem de precedencia.
+3 % 2 é 3 dividido por 2 , o resto ,3 dividido por 2 dá 1 e resta 1, a soma foi a ultima ser feita pois isso se chama de ordem de precedencia.
 
 
 
@@ -150,7 +150,7 @@ para toda expressao que tenha operador relacional ligado à ela o resultado dess
  ----exemplos praticos
 
 5 > 2  true
- 8<4  false
+8 < 4  false
 
  var  a = 8
  var b = 15
@@ -183,7 +183,7 @@ operador de indentidade tambem conhecido como operador de igualdade restrita  qu
 "!=="" chamamos de desigual restrito , então eles são de tipos diferentes  mas o valor interno é o mesmo.
 
 
-operadore logicos 
+-----> operadore logicos 
 
 ! sempre que aparecer exclamção quer dizer negação.
 
@@ -250,6 +250,72 @@ exemplos
 idade>= 15 && idade <=17 // a idade está entre 15 e 17 ?
 estado == 'RJ' || estado == 'SP'  // o estado é RJ ou SP?
 salário >1500 && sexo != 'M' // o salário acima de 1500 e não é homem.
+__________________________________________________________________________________________________________
+
+ordem de precedência 
+
+sempre de cima pra baixo
+
+ dentro de uma expressão a gente , em primeiro lugar vai fazer 
+
+ operadores aritméticos ,
+
+()  
+
+** 
+
+ *  / %  ELES TEM A MESMA ORDEM DE PRECEDENCIA , QUALQUER UM DOS 3 VEM ANTES, SE MAIS DE UM DELES TIVER NA MESMA EXPRESSAO, VOCE VAI FAZER DA ESQUERDA PARA DIREITA QUEM APARECER PRIMEIRO.
+
+ + -
+
+ operadores Relacionais // não tem ordem de precedencia quem  aparecer primeiro a leitura é da esquerda para a direita.
+
+> 
+<
+>=
+<=
+==
+!=
+
+operadores lógicos  eles tem sim uma orde de precedencia  que é o primeiro "não" , depois o "e", e por ultimo o "ou".
+
+! sempre que aparecer exclamção quer dizer negação.
+
+&& sempre que aparecer que dizer que é uma conjunção
+
+|| sempre que aparecer os dois pipes são dijunções  // é o nosso "ou" logico 
+
+
+Operador de negação "!", "não" ---- Ele é tratado como operador unário , isto é , ele só tem um operando, ou seja , depois da exclamção ou eu boto "true" ou eu boto "false",ou eu boto uma expressão que vai da "true" ou "false".
+
+
+Operador Ternário---->é composto por dois simbolos que aparecem na mesma expressao  a interrogação (?) e os dois ponto (:).
+ele se chama ternário por que ele tem tres partes, ele junta três operandos , o primeiro exeplo  que está  a baixo é um teste lógico. é quando o resultado dá
+verdadeiro ou faslo. 
+
+exemplo 
+
+test ? true : teste 
+
+var média =  5.5
+ média > 7 ? 'Aprovado' : 'Reprovado'
+
+var x = 8 
+
+var res = x % 2 == 0 ? 5:9 
+
+var res = 5 
+_________________
+
+ var graus = 20 
+  
+var x = graus >= 30 ? 'MAIOR ' : 'MENOR'
+
+x = menor 
+
+
+
+
 
 
 */
