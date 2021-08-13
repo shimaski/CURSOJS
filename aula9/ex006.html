@@ -32,10 +32,13 @@
 <script>
 
 
-//window.document.write('olá mundo');
+//window.document.write('olá mundo'); // escreve  o ola mundo 
 
-//window.document.write(window.document.URL)
- 
+//window.document.write(window.document.URL) escreve a url do site atual
+//window.document.write(window.navigator.appName)// escreve  o nome do navegador que está utilizando
+ //window.document.write()
+
+
 /*
 Então eu posso navegar dentro dessa árvores aqui  da maneira que achar melhor,e para isso existe várias maneiras  de navegar entre os elementos
 elemento é toda e qualquer coisa que apareceu aqui na arvore DOM,só lembrando elemento é toda e qualquer coisa que apareceu aqui na arvore DOM a #imagem está no readme, qualquer um dos retangulo que aparecem lá são ditos elementos e eu posso selecionar esses elementos para poder navegar dentro da minha arvore DOM, existem vários metodos para isso.
@@ -48,9 +51,56 @@ exemplos da aula cinco metodos de acesso:
 .por classe 
 .por seletor, por CSS que é um recurso mais recente,ele nao está presente em todas as versões  do ecmascript mais recentes, mas as mais recentes em todos os navegadores atulizados tem acesso a esse outro metodo aqui que é por seletor . 
 
-
-
 Em primeiro lugar vamos aprender a fazer a primeira 
+
+-------> seletor por marca  ou por tag name
+
+comando getElementsByTagName() ele está dentro de documents , quando se usar o getElementsByTagName consegue selecionar mais de um objeto , por que existe vários objetos do mesmo tipo, da mesma tag exemplo  no codigo dessa página tem dois paragrafos,
+então tem duas tags p . mais so tenho uma body , e so uma tag div  e por enquanto so tenho uma tag h1..
+
+
+  
+  var p1 = window.document.getELementsByTagName('p') [0]  
+
+  var p1 = window.document.getELementsByTagName('p') [1]  
+
+  so que ele não vai pegar um elemento só, tanto que ele tá no plural  "getElement's'ByTagName", tem dois paragrafos 
+
+  para selecionar o primeiro  depois do parentese sem dá espaço se usa [] e se coloca um numero dentro , 0 é o primeiro  paragrafo que aparecer , 
+  no caso se for selecionar o paragrafo de baixo [1] e assim sucessivamente, o primeiro paragrafo é [0]o segundo é [1] o terceiro é  [2] e o  quarto é [3] e assim sucessivamente.
+
+  para escrever  na tela o p1.innerText e o que é o innertext?, é o texto que está dentro do paragrafo
+
+
+  window.document.write(p1.innerText) esse window.document aqui ele está mostrando  "aqui vai o resultado"ele replicou o mesmo que estava acima esse é o primeiro paragrafo.
+
+
+também posso escrever assim  window.document.write('Está escrito assim: '+ p1.innerText);
+
+
+mudando o numero dentro do colchetes ele vai ser usado principalmente quando está com "getElement's'ByTagName" quando estou com nome no plural,
+com esse nome no plural eu preciso de indicar qual é o componente que quero acessar, acesso o praragrafo 0 e acesso o pragrafo 1 .
+
+posso pegar o paragrafo [0] por exemplo e colocar p1.style vai mudar para
+
+p1.style.color = 'blue'
+
+posso mudar tambem o funco criando uma variavel
+
+var corpo = window.document.body 
+corpo.style.background ='black'
+
+
+na para mudar o p1  boto inner  tenho o innerText e o innerHtml 
+
+window.document.write(p1.innerText) texto sai sem formatação 
+window.document.write(p1.innerHTML) texto sai com formatação  
+
+
+  
+
+
+
 
 
 
