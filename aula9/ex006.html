@@ -28,10 +28,24 @@
 <p>Aqui vai o resultado</p>
 <p>Aprendendo a usar <strong>DOM </strong> em javascript</p>
 <div>clique em mim</div>
-
+<br> 
 <script>
 
+//chama a variavel  
+var par = window.document.getElementsByTagName ('p') [1]
+var fundo = window.document.body
+fundo.style.background = 'blue'
 
+
+window.alert('testando comandos DOM')
+
+
+window.document.write( 'o texto que vai aparece é do segundo paragrafo  com formatação em html que é o  : <br>' + par.innerHTML)
+
+
+window.document.write( '<br> <br> o texto que vai aparece é do segundo paragrafo sem formatação em html que é o  : <br>' + par.innerText)
+
+par.style.background ='orange'
 //window.document.write('olá mundo'); // escreve  o ola mundo 
 
 //window.document.write(window.document.URL) escreve a url do site atual
