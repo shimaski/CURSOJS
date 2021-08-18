@@ -27,25 +27,32 @@
 <h1>Iniciando estudos  DOM </h1>
 <p>Aqui vai o resultado</p>
 <p>Aprendendo a usar <strong>DOM </strong> em javascript</p>
-<div>clique em mim</div>
+<div id='msg'>clique em mim</div>
 <br> 
 <script>
 
 //chama a variavel  
-var par = window.document.getElementsByTagName ('p') [1]
-var fundo = window.document.body
-fundo.style.background = 'blue'
+var par = window.document.getElementsByTagName ('p') [1];
+var fundo = window.document.body;
+fundo.style.background = 'blue';
+
+//var d = window.document.getElementById('msg');
+//d.style.background ='purple';
+//d.innerText = 'carregando...'
 
 
-window.alert('testando comandos DOM')
+window.alert('testando comandos DOM');
 
 
-window.document.write( 'o texto que vai aparece é do segundo paragrafo  com formatação em html que é o  : <br>' + par.innerHTML)
+window.document.write( 'o texto que vai aparece é do segundo paragrafo  com formatação em html que é o  : <br>' + par.innerHTML);
 
 
-window.document.write( '<br> <br> o texto que vai aparece é do segundo paragrafo sem formatação em html que é o  : <br>' + par.innerText)
+window.document.write( '<br> <br> o texto que vai aparece é do segundo paragrafo sem formatação em html que é o  : <br>' + par.innerText);
 
-par.style.background ='orange'
+par.style.background ='orange';
+
+
+
 //window.document.write('olá mundo'); // escreve  o ola mundo 
 
 //window.document.write(window.document.URL) escreve a url do site atual
@@ -109,8 +116,33 @@ na para mudar o p1  boto inner  tenho o innerText e o innerHtml
 
 window.document.write(p1.innerText) texto sai sem formatação 
 window.document.write(p1.innerHTML) texto sai com formatação  
+__________________________________________________________________________________________________________________________
+
+Quando o site é um pouco evoluído e precisa ficar selecionando um por um  por ID por exemplo, posso indentificar um paragráfo ou  a DIV que  a gente vai ultilizar por um ID e usuar o getElementsById(), 
+
+tambem posso ultilizar o nome do objeto se tenho uma  propriedade name então vou ultilizar o getElementsByName(), percebe que ele tem o 's' np plural, entao eu preciso usar aquele  colchetes "[]", quando tenho mais de um objeto e quando tenho mais de um objeto da mesma classe
+ou do mesmo nome , eu vou usar muito por marca  os tag names e tambem por getElementsByName(), quando eu quero selecionar um objeto . uma família deles eu vou utilizar o ID também posso usar como conjunto por  classe, eu vou ultilizar o getElementsByClassName(),
 
 
+
+exemplos com  getElementById()
+
+<div id='msg'>clique em mim</div>
+
+var d = window.document.getElementById('msg')
+
+d.style.background ='green'
+___________________________________________________________________________________________________________________________________________
+
+querySelector()
+querySelectorAll()
+
+var d = window.document.querrySelector(div#msg)// toda div e representada por '*' e toda classe ela é presentada por "."
+
+quando é ID '#' quando é classe é '.'
+
+querrySelector é um metodo mais recente , navegadores antigos quero rodam ecma script mais antigos  não tem o suporte a elas.
+__________________________________________________________________________
 DOM é o acronimo  para document Object model, que é o modelo de objeto para documentos,basicamente  é um conjunto de obejto dentro do seu navegador  que vai dar acesso aos componentes interno 
 do seu website.O dom ele nao funciona dentro do node js por exemplo.Ele está presente quando estou rodando javascript dentro do meu navegador, por isso é que a gente acabou de criar essa pagina web.
 
