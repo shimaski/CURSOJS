@@ -31,7 +31,7 @@
         Então por exemplo : eu vou programar dez linhas , essas dez linhas a gente chama de bloco,então imagina que esse bloco tivesse 10 linhas , essas 10 linhas não vão ser executadas  automáticamente,todos os nossos códigos até o momento foram executadas automaticamente 
          carregava a pagina e ele executava o código , agora essas 10 linhas (esse bloco), ele só vai ocorrer, por exemplo: quando eu clicar dentro da <div> , então essas 10 linhas vão ser disparadas somente quando evento ocorrer 
 
-            ---
+---
         para eu executar essas 10 linhas somente quando o evento ocorrer, para executar essas 10 linhas somente quando o evento ocorrer , primeiro passo é coloca-lá  dentro de um bloco, um bloco em javascript ele é delimitado entre os sinais de  de chaves {}, 
         então  você abre  chaves , coloca o seu código e fecha chaves.
 
@@ -45,7 +45,7 @@
 
 
 
-            ---
+---
             Isso aqui a gente chama de bloco , esse bloco você tem que nomear ele como uma 'function'
 
 
@@ -58,7 +58,7 @@
 
 
 
-            ---
+---
 
             então você coloca a palavra 'function', que quer dizer função  antes do bloco,no javascript existe isso aqui:
 
@@ -72,11 +72,11 @@
 ---
 
 
-        função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
-        eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
-        eles são  nomes de ação , que você vai colocar .
+    função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
+    eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
+     eles são  nomes de ação , que você vai colocar .
 
-        vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
+    vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
         
  
      function ação () {
@@ -84,7 +84,7 @@
                  }
 
               
-    e opcionalmente você pode também colocar dentro desses parenteses
+     e opcionalmente você pode também colocar dentro desses parenteses
     alguns parametros , pode ser um, pode ser vários parametros.
  
 
