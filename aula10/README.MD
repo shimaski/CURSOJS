@@ -98,6 +98,103 @@
 
 ---
 
+Os eventos pode ser configurados na parte HTML ou diretamente no javascript , exemplos de duas técnicas  usa qual você preferir.
+
+eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click , para disparar o click , para eu dispar o click dentro do html , eu vou colocar aqui dentro da minha <div> do lado do ID  e vou colocar "on" e o nome do método 
+
+exemplo direto no html :
+
+  tudo que tiver aqui dentro da function ele só vai ser executado quando eu chamar o clicar ,
+    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+    vou chamar essa função de clicar .
+
+    <div id="area" onclick="clicar()">
+
+
+        interaja..
+
+    </div>
+    
+
+    <script>
+
+    
+
+    function clicar() {
+
+    então quando eu chamar a função ao clicar ele vai executar tudo que está aqui dentro. 
+    essa é a configuração básica e aqui dentro vai configurar tudo que vai acontecer , 
+  
+
+       }
+
+      eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+    vou chamar essa função de clicar .
+
+
+
+    quando eu clicar eu quero fazer o seguinte : esse interaja vai mudar o conteudo dele ,para eu mudar  o conteudo dele, eu tenho que ver dentro da minha árvore DOM , 
+    
+    
+    isso aqui é uma <div> de id "area". Então eu posso fazer :
+
+    var a ( pode chama de "a" ou de "area" sem problemas)
+
+
+    <div id="area" onclick="clicar()">
+
+
+        interaja..
+
+    </div>
+    
+
+    <script>
+
+    
+
+
+    function clicar() {
+
+            var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+    }
+
+
+
+     
+    </script>
+   
+    <div id="area" onclick="clicar()">
+
+
+        interaja..
+
+    </div>
+    
+
+    <script>
+
+    /*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
+    então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
+    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+    vou chamar essa função de clicar .
+
+
+
+    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+*/
+
+
+function clicar() {
+
+    var area =window.document.getElementById('area');
+    area.innerText = 'clicou !'
+}
+
+
+
+     Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )
+
 
 
 
