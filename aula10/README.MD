@@ -15,8 +15,8 @@
 
 <h3>📚 Conteúdo</h3>
 
-Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontecer com essa <div>, com qualquer elemento , mas no exemplo acima , o que pode acontecer com essa div ?, um monte de coisa, a mais comum : 
-    eventos de mouse, então por exemplo  chegar o curso do mouse e mover o mouse até encostar , até chegar dentro da <div>, quando chega o mouse dentro da <div> vai disparar um evento  pode ser o :
+        Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontecer com essa <div>, com qualquer elemento , mas no exemplo acima , o que pode acontecer com essa div ?, um monte de coisa, a mais comum : 
+        eventos de mouse, então por exemplo  chegar o curso do mouse e mover o mouse até encostar , até chegar dentro da <div>, quando chega o mouse dentro da <div> vai disparar um evento  pode ser o :
 
         mouseenter  que o mouse entrou na <div>
         mousemove que o mouse continua se mover dentro da <div> , nesse momento disparado várias vezes, enquanto tiver movendo dentro da <div>, ele vai desperar esse evento "mousemove".
@@ -72,29 +72,29 @@ Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontec
         ---
 
 
-função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
-eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
-eles são  nomes de ação , que você vai colocar .
+        função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
+        eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
+        eles são  nomes de ação , que você vai colocar .
 
- vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
+        vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
         
  
- function ação () {
+     function ação () {
 
                  }
 
               
-e opcionalmente você pode também colocar dentro desses parenteses
- alguns parametros , pode ser um, pode ser vários parametros.
+    e opcionalmente você pode também colocar dentro desses parenteses
+    alguns parametros , pode ser um, pode ser vários parametros.
  
 
- function ação (parametros){
+    function ação (parametros){
 
             
                     }
 
 
-vamos  voltar ao código que fizemos  até o momento e vamos disparar um código simples que é um código de click.
+    vamos  voltar ao código que fizemos  até o momento e vamos disparar um código simples que é um código de click.
 
 ---
 
