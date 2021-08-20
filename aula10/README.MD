@@ -182,7 +182,7 @@ exemplo direto no html :
 
 
     var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
-*/
+        */
 
 
 function clicar() {
@@ -194,6 +194,42 @@ function clicar() {
 
 
      Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )
+     <div id="area" onclick="clicar()" onmouseenter="entrar()">
+        interaja..
+
+    </div>
+    
+
+    <script>
+
+    /*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
+    então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
+    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+    vou chamar essa função de clicar .
+
+
+
+    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+    
+    Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", 
+    vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )vou chamar o 'entrar',
+    coloquei a ação e vou ter que criar outra function 
+
+    */
+var area =window.document.getElementById('area');  /*vamos colocar o "var area" para fora,
+colocando para fora o "area" vai funcionar dentro de qualquer function que for criada. */
+function clicar() {
+
+    
+
+area.innerText = 'clicou !'
+
+}
+
+function entrar(){
+
+   area.innerText= "entrou !"
+}
 
 
 
