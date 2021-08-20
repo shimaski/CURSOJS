@@ -32,8 +32,8 @@
          carregava a pagina e ele executava o código , agora essas 10 linhas (esse bloco), ele só vai ocorrer, por exemplo: quando eu clicar dentro da <div> , então essas 10 linhas vão ser disparadas somente quando evento ocorrer 
 
 ---
-        para eu executar essas 10 linhas somente quando o evento ocorrer, para executar essas 10 linhas somente quando o evento ocorrer , primeiro passo é coloca-lá  dentro de um bloco, um bloco em javascript ele é delimitado entre os sinais de  de chaves {}, 
-        então  você abre  chaves , coloca o seu código e fecha chaves.
+    para eu executar essas 10 linhas somente quando o evento ocorrer, para executar essas 10 linhas somente quando o evento ocorrer , primeiro passo é coloca-lá  dentro de um bloco, um bloco em javascript ele é delimitado entre os sinais de  de chaves {}, 
+    então  você abre  chaves , coloca o seu código e fecha chaves.
 
             
 
@@ -83,9 +83,9 @@
 
                  }
 
-              
-     e opcionalmente você pode também colocar dentro desses parenteses
-    alguns parametros , pode ser um, pode ser vários parametros.
+  ---            
+         E opcionalmente você pode também colocar dentro desses parenteses
+         alguns parametros , pode ser um, pode ser vários parametros.
  
 
     function ação (parametros){
