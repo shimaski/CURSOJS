@@ -42,7 +42,10 @@ Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontec
                  bloco 
 
                     }
----
+
+
+
+            ---
             Isso aqui a gente chama de bloco , esse bloco você tem que nomear ele como uma 'function'
 
 
@@ -52,14 +55,22 @@ Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontec
               bloco 
 
             }
-    ---
+
+
+
+            ---
 
             então você coloca a palavra 'function', que quer dizer função  antes do bloco,no javascript existe isso aqui:
 
 
         function  {
 
-                     }
+                  }
+        
+        
+        
+        ---
+
 
 função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
 eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
@@ -85,7 +96,7 @@ e opcionalmente você pode também colocar dentro desses parenteses
 
 vamos  voltar ao código que fizemos  até o momento e vamos disparar um código simples que é um código de click.
 
-
+---
 
 
 
