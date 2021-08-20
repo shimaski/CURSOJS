@@ -187,7 +187,7 @@ exemplo direto no html :
 
 function clicar() {
 
-    var area =window.document.getElementById('area');
+   var area =window.document.getElementById('area');
     area.innerText = 'clicou !'
 }
 
