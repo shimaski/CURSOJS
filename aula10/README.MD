@@ -255,37 +255,38 @@ area.innerText = 'saiu !'
 
 ### exemplos por javascript
 
-<div id="area" >
+    <div id="area" >
         interaja..
 
-</div>
+    </div>
 
-<script>
-var area =window.document.getElementById('area');
+    <script>
+    var area =window.document.getElementById('area');
 
-area.addEventListener('click', clicar);
-area.addEventListener('mouseenter', entrar);
-area.addEventListener('mouseout',sair);
+    area.addEventListener('click', clicar);
+        area.addEventListener('mouseenter', entrar);
+    area.addEventListener('mouseout',sair);
 
-function clicar() {
+    function clicar() {
 
     
     area.innerText = 'clicou !'
-    area.style.background = 'red'
-}
+    area.style.background = 'red'   
 
-function entrar(){
+    }
 
-   area.innerText= 'entrou !'
-   area.style.background ='purple'
-   area.style.color ='black'
-}
+    function entrar(){
 
-function sair () {
+    area.innerText= 'entrou !'
+    area.style.background ='purple'
+    area.style.color ='black'
+    }
+
+    function sair () {
 
     area.innerText = 'saiu !'
     area.style.background ='yellow'
-}
+    }
 
      
     </script>
