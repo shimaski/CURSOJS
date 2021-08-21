@@ -22,7 +22,7 @@ div#area {
 
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()">
+    <div id="area" >
         interaja..
 
     </div>
@@ -44,20 +44,32 @@ div#area {
     coloquei a ação e vou ter que criar outra function 
 
     */
-var area =window.document.getElementById('area');  /*vamos colocar o "var area" para fora,
-colocando para fora o "area" vai funcionar dentro de qualquer function que for criada. */
+var area =window.document.getElementById('area'); /* a variavel do lado de fora é um escopo global,vamos colocar o "var area" para fora,
+colocando para fora, o "area" vai funcionar dentro de qualquer function que for criada. de forma resumida quando crio do lado de fora ela vai servir para todas a três functions*/
+
+area.addEventListener('click', clicar);
+area.addEventListener('mouseenter', entrar);
+area.addEventListener('mouseout',sair);
+
 function clicar() {
 
     
     area.innerText = 'clicou !'
+    area.style.background = 'red'
 }
 
 function entrar(){
 
-   area.innerText= "entrou !"
+   area.innerText= 'entrou !'
+   area.style.background ='purple'
+   area.style.color ='black'
 }
 
+function sair () {
 
+    area.innerText = 'saiu !'
+    area.style.background ='yellow'
+}
 
      
     </script>

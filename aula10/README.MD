@@ -102,7 +102,7 @@ Os eventos pode ser configurados na parte HTML ou diretamente no javascript , ex
 
 eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click , para disparar o click , para eu dispar o click dentro do html , eu vou colocar aqui dentro da minha <div> do lado do ID  e vou colocar "on" e o nome do método 
 
-exemplo direto no html :
+### exemplo direto no html :
 
   tudo que tiver aqui dentro da function ele só vai ser executado quando eu chamar o clicar ,
     eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
@@ -230,6 +230,70 @@ function entrar(){
 
    area.innerText= "entrou !"
 }
+
+
+
+var area =window.document.getElementById('area'); /* a variavel do lado de fora é um escopo global,vamos colocar o "var area" para fora,
+colocando para fora, o "area" vai funcionar dentro de qualquer function que for criada. de forma resumida quando crio do lado de fora ela vai servir para todas a três functions*/
+
+function clicar() {
+
+    var area =window.document.getElementById('area'); // se eu pego isso aqui e coloco dentro da variavel ela so vai funcionar no clicar e não vai servir para as outras .
+area.innerText = 'clicou !'
+}
+
+function entrar(){
+
+   area.innerText= 'entrou !'
+}
+
+function sair () {
+
+area.innerText = 'saiu !'
+
+}
+
+### exemplos por javascript
+
+<div id="area" >
+        interaja..
+
+</div>
+
+<script>
+var area =window.document.getElementById('area');
+
+area.addEventListener('click', clicar);
+area.addEventListener('mouseenter', entrar);
+area.addEventListener('mouseout',sair);
+
+function clicar() {
+
+    
+    area.innerText = 'clicou !'
+    area.style.background = 'red'
+}
+
+function entrar(){
+
+   area.innerText= 'entrou !'
+   area.style.background ='purple'
+   area.style.color ='black'
+}
+
+function sair () {
+
+    area.innerText = 'saiu !'
+    area.style.background ='yellow'
+}
+
+     
+    </script>
+
+
+
+
+
 
 
 
