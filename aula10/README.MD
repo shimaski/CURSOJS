@@ -263,6 +263,9 @@ area.innerText = 'saiu !'
     <script>
     var area =window.document.getElementById('area');
 
+
+    //EventListener
+    
     area.addEventListener('click', clicar);
         area.addEventListener('mouseenter', entrar);
     area.addEventListener('mouseout',sair);
