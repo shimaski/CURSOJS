@@ -9,9 +9,10 @@
        
 
     body {
-    
+        display: grid;
+        place-items:center;
         font: normal 20pt arial;
-        background-color:  rgb(255, 255, 104);
+        background-color:  rgb(255, 255, 246);
         color: rgb(11, 9, 156);
 
 
@@ -39,17 +40,43 @@
     div#resultado{
         margin-top: 30px;
     }
+
+
+    .conteudo{
+        width: 590px;
+        margin-top:200px;
+        border-color: crimson;
+    }
+
+    .inp{
+        margin: 50px;
+    
+    }
+
+    div#resultado{
+
+        margin: 25px;
+       color:darkorchid
+
+    }
     </style>
 </head>
 <body>
-    <h1> Somando Valores   </h1>
 
+    <div class="conteudo" >
+
+    
+
+    <div  class="inp">
+        <h1> Somando Valores </h1>
+ 
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input id="butao" type="button" value="soma" onclick="somar()">
-   
+</div>
     <div id="resultado"> O resultado da soma é  </div>
 
+</div>
     <script>  
     
     function somar(){
