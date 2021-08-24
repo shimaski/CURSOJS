@@ -102,9 +102,9 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
 ### exemplo direto no html :
 
-  tudo que tiver aqui dentro da function ele só vai ser executado quando eu chamar o clicar ,
-    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
-    vou chamar essa função de clicar .
+tudo que tiver aqui dentro da function ele só vai ser executado quando eu chamar o clicar ,
+eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+vou chamar essa função de clicar .
 
     <div id="area" onclick="clicar()">
 
@@ -161,7 +161,8 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
      
     </script>
-   
+
+   ---
     <div id="area" onclick="clicar()">
 
 
@@ -203,15 +204,14 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
     <script>
 
-var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
     
-Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", 
-vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )vou chamar o 'entrar',
-coloquei a ação e vou ter que criar outra function 
+    Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", 
+    vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )vou chamar o 'entrar',
+    coloquei a ação e vou ter que criar outra function */
 
-*/
-var area =window.document.getElementById('area');  /*vamos colocar o "var area" para fora,
-colocando para fora o "area" vai funcionar dentro de qualquer function que for criada. */
+    var area =window.document.getElementById('area');  /*vamos colocar o "var area" para fora,
+    colocando para fora o "area" vai funcionar dentro de qualquer function que for criada. */
 
     function clicar() {
 
@@ -247,6 +247,8 @@ colocando para fora o "area" vai funcionar dentro de qualquer function que for c
     area.innerText = 'saiu !'
 
     }
+
+---
 
 ### exemplos por javascript
 
