@@ -172,14 +172,14 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
     <script>
 
-/*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
-então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
-eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
-vou chamar essa função de clicar .
+    /*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
+    então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
+    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+    vou chamar essa função de clicar .
 
 
 
-var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
         */
 
 
@@ -192,20 +192,16 @@ var area = window.document.getElementById // tambem posso usar o querrySelector,
 
 
      Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )
+
+
      <div id="area" onclick="clicar()" onmouseenter="entrar()">
+        
         interaja..
 
     </div>
     
 
     <script>
-
-/*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
-então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
-eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
-vou chamar essa função de clicar .
-
-
 
 var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
     
@@ -232,8 +228,7 @@ colocando para fora o "area" vai funcionar dentro de qualquer function que for c
 
 
 
-var area =window.document.getElementById('area'); /* a variavel do lado de fora é um escopo global,vamos colocar o "var area" para fora,
-colocando para fora, o "area" vai funcionar dentro de qualquer function que for criada. de forma resumida quando crio do lado de fora ela vai servir para todas a três functions*/
+    var area =window.document.getElementById('area'); /* a variavel do lado de fora é um escopo global,vamos colocar o "var area" para fora,colocando para fora, o "area" vai funcionar dentro de qualquer function que for criada. de forma resumida quando crio do lado de fora ela vai servir para todas a três functions*/
 
     function clicar() {
 
