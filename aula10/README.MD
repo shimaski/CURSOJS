@@ -102,7 +102,7 @@ vamos  voltar ao código que fizemos  até o momento e vamos disparar um código
 
 Os eventos pode ser configurados na parte HTML ou diretamente no javascript , exemplos de duas técnicas  usa qual você preferir.
 
-eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click , para disparar o click , para eu dispar o click dentro do html , eu vou colocar aqui dentro da minha <div> do lado do ID  e vou colocar "on" e o nome do método 
+eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click , para disparar o click , para eu dispar o click dentro do html , eu vou colocar aqui dentro da minha div do lado do ID  e vou colocar "on" e o nome do método 
 
 ### exemplo direto no html :
 
@@ -252,7 +252,7 @@ vou chamar essa função de clicar .
 
     }
 
----
+<h3> <h3>
 
 ### exemplos por javascript
 
