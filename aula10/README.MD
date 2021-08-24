@@ -72,11 +72,11 @@
 ---
 
 
-    função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
-    eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
-     eles são  nomes de ação , que você vai colocar .
+função anônima , é uma função que simplesmente não tem nome, só que para que o método possa funcionar,
+eu tenho que dar um nome para essa função  e geramente são das funções são ações que nós podemos fazer, geralmente  funções  de evento,
+    eles são  nomes de ação , que você vai colocar .
 
-    vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
+vai colocar o nome da ação que vai acontecer  e abre e fecha parenteses, 
         
  
      function ação () {
@@ -174,14 +174,14 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
     <script>
 
-    /*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
-    então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
-    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
-    vou chamar essa função de clicar .
+/*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
+então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
+eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+vou chamar essa função de clicar .
 
 
 
-    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
         */
 
 
@@ -202,56 +202,58 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
 
     <script>
 
-    /*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
-    então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
-    eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
-    vou chamar essa função de clicar .
+/*tudo que tiver aqui dentro ele só vai ser executado quando eu chamar o clicar ,
+então quando eu chamar ao clicar ele vai executar tudo que está aqui dentro. essa é a configuração básica , 
+eu tenho que disparar o método só vai ser disparado quando eu clicar com o mouse, então esse método "clicar" ,
+vou chamar essa função de clicar .
 
 
 
-    var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
+var area = window.document.getElementById // tambem posso usar o querrySelector, não está no plural então não tem que usar colchetes, vou colocar entre aspas simples,
     
-    Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", 
-    vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )vou chamar o 'entrar',
-    coloquei a ação e vou ter que criar outra function 
+Esse "clicou" , ele só vai acontecer quando eu efetivamente clicar em cima do elemento , porque eu disparei o evento "onclick", 
+vamos para outro elemento aqui que é o "onmouseenter" (isso é quando o mouse entrar na <div> )vou chamar o 'entrar',
+coloquei a ação e vou ter que criar outra function 
 
-    */
+*/
 var area =window.document.getElementById('area');  /*vamos colocar o "var area" para fora,
 colocando para fora o "area" vai funcionar dentro de qualquer function que for criada. */
-function clicar() {
+
+    function clicar() {
 
     
 
-area.innerText = 'clicou !'
+    area.innerText = 'clicou !'
 
-}
+    }
 
-function entrar(){
+    function entrar(){
 
-   area.innerText= "entrou !"
-}
+    area.innerText= "entrou !"
+    }
 
 
 
 var area =window.document.getElementById('area'); /* a variavel do lado de fora é um escopo global,vamos colocar o "var area" para fora,
 colocando para fora, o "area" vai funcionar dentro de qualquer function que for criada. de forma resumida quando crio do lado de fora ela vai servir para todas a três functions*/
 
-function clicar() {
+    function clicar() {
 
     var area =window.document.getElementById('area'); // se eu pego isso aqui e coloco dentro da variavel ela so vai funcionar no clicar e não vai servir para as outras .
-area.innerText = 'clicou !'
-}
 
-function entrar(){
+    area.innerText = 'clicou !'
+    }
 
-   area.innerText= 'entrou !'
-}
+    function entrar(){
 
-function sair () {
+     area.innerText= 'entrou !'
+    }
 
-area.innerText = 'saiu !'
+    function sair () {
 
-}
+    area.innerText = 'saiu !'
+
+    }
 
 ### exemplos por javascript
 
