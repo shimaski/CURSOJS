@@ -15,15 +15,15 @@
 
 <h3>📚 Conteúdo</h3>
 
-Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontecer com essa <div>, com qualquer elemento , mas no exemplo acima , o que pode acontecer com essa div ?, um monte de coisa, a mais comum : 
-    eventos de mouse, então por exemplo  chegar o curso do mouse e mover o mouse até encostar , até chegar dentro da <div>, quando chega o mouse dentro da <div> vai disparar um evento  pode ser o :
+Eventos DOM, a <div> que acabou de criar, evento e tudo aquilo que possa acontecer com essa <div>, com qualquer elemento,mas no exemplo acima , o que pode acontecer com essa div ?, um monte de coisa, a mais comum : 
+eventos de mouse, então por exemplo  chegar o curso do mouse e mover o mouse até encostar , até chegar dentro da <div>, quando chega o mouse dentro da <div> vai disparar um evento  pode ser o :
 
-mouseenter  que o mouse entrou na <div>
-    mousemove que o mouse continua se mover dentro da <div> , nesse momento disparado várias vezes, enquanto tiver movendo dentro da <div>, ele vai desperar esse evento "mousemove".
-     mousedown  que se pegar o mouse e clicar e segurar ,tenho o disparo do mousedown.
-     mouseup no momento que eu disparo outro evento  mouseup ou mouse up  que é  no momento que eu soltar
-     click movimento do click inteiro apertar e soltar 
-     mouseout ou mouse out e da mesma maneira que com o mouseenter, quando eu vou mover o mouse para fora dessa  <div> ele vai disparar 
+* mouseenter  que o mouse entrou na <div>
+* mousemove que o mouse continua se mover dentro da <div> , nesse momento disparado várias vezes, enquanto tiver movendo dentro da <div>, ele vai desperar esse evento "mousemove".
+* mousedown  que se pegar o mouse e clicar e segurar ,tenho o disparo do mousedown.
+* mouseup no momento que eu disparo outro evento  mouseup ou mouse up  que é  no momento que eu soltar
+* click movimento do click inteiro apertar e soltar 
+* mouseout ou mouse out e da mesma maneira que com o mouseenter, quando eu vou mover o mouse para fora dessa  <div> ele vai disparar 
     
         
 Para disparar um evento, para tratar um evento , tem que ser explicado antes , o que é uma função ou uma funcionalidade.
@@ -290,8 +290,7 @@ vou chamar essa função de clicar .
 
      
     </script>
-
-
+---
 
 
 
