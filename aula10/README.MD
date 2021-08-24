@@ -185,11 +185,11 @@ eu vou fazer o seguinte aqui : meu método  que vou disparar é o evento click ,
         */
 
 
-function clicar() {
+    function clicar() {
 
-   var area =window.document.getElementById('area');
-    area.innerText = 'clicou !'
-}
+    var area =window.document.getElementById('area');
+        area.innerText = 'clicou !'
+    }
 
 
 
