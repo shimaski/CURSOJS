@@ -29,11 +29,11 @@ Eventos DOM,a div que acabou de criar, evento e tudo aquilo que possa acontecer 
 
 * click movimento do click inteiro apertar e soltar;
 
-* mouseout ou mouse out e da mesma maneira que com o mouseenter, quando eu vou mover o mouse para fora dessa  <div> ele vai disparar .
-    
-        
+* mouseout ou mouse out e da mesma maneira que com o mouseenter, quando eu vou mover o mouse para fora dessa  div ele vai disparar .
+       
 Para disparar um evento, para tratar um evento , tem que ser explicado antes , o que é uma função ou uma funcionalidade.
 uma função em javascript é o seguinte : é um conjunto de códigos, é um conjunto de linhas que a gente já fez várias vezes durante todas essas aulas  do curso , que vão ser executadas só quando o evento ocorrer.Então por exemplo : eu vou programar dez linhas , essas dez linhas a gente chama de bloco,então imagina que esse bloco tivesse 10 linhas , essas 10 linhas não vão ser executadas  automáticamente,todos os nossos códigos até o momento foram executadas automaticamente carregava a pagina e ele executava o código , agora essas 10 linhas (esse bloco), ele só vai ocorrer, por exemplo: quando eu clicar dentro da div,então essas 10 linhas vão ser disparadas somente quando evento ocorrer .
+
 ---
 para eu executar essas 10 linhas somente quando o evento ocorrer, para executar essas 10 linhas somente quando o evento ocorrer , primeiro passo é coloca-lá  dentro de um bloco, um bloco em javascript ele é delimitado entre os sinais de  de chaves {}, então  você abre  chaves , coloca o seu código e fecha chaves.
 
