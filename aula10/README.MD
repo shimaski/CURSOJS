@@ -252,7 +252,6 @@ vou chamar essa função de clicar .
 
     }
 
-<h3> <h3>
 
 ### exemplos por javascript
 

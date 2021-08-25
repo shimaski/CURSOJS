@@ -31,6 +31,10 @@
 * Formatação
 * Regras de variávies 
 * Template String
+* Condições
+* DOM
+* Eventos DOM
+* Operadores 
 
 ## O ponta pé inicial da minha caminhada ao desenvolvimento web.
 
