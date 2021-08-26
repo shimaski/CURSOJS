@@ -5,7 +5,6 @@
 * condições aninhadas 
 * condições multiplas 
 
-* exercicios Propostos 
 
 
 <h3>Aula 11</h3>
@@ -28,6 +27,7 @@ tem que executar o  primeiro , o segundo e o terceiro, não posso mudar a ordem.
 
 Também Não!, por que é só você olhar o fluxo , O fluxo apresentado aqui ao lado têm que ser,já que ele é uma seguencia , tem que se executado primeiro comando um, em segundo o comando dois e terceiro o comando três.
 
+___
 
 Existem situações que : "Tem que horas que vou querer executar o comando dois, e tem horas  que eu não vou quer executar o comando dois".
 
