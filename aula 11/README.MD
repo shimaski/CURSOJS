@@ -1,5 +1,13 @@
 ## CONDIÇÕES 
 
+* condições simples
+* condições compostas 
+* condições aninhadas 
+* condições multiplas 
+
+* exercicios Propostos 
+
+
 <h3>Aula 11</h3>
 
 Primeiro temos que falar sobre sequêcias ,por que todos os códigos que a gente fez até hoje , até  o momento nesse curso, foram codigos sequencias .
