@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/sVtSPt8/logo.jpg" alt="logo"  align ="center" border="0"></a>
+<img src="https://i.ibb.co/sVtSPt8/logo.jpg" alt="logo"  align="center" border="0"></a>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/shimaski/CURSOJS?color=%2304D361">
