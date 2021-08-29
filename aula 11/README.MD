@@ -11,7 +11,10 @@
 
 Primeiro temos que falar sobre sequêcias ,por que todos os códigos que a gente fez até hoje , até  o momento nesse curso, foram codigos sequencias .
 
-https://i.ibb.co/bPxxMcz/Screenshot-3.png"
+<p align="center">
+
+  <img alt="GitHub language count" src="https://i.ibb.co/bPxxMcz/Screenshot-3.png">
+
 
 na primeira linha criamos uma varivel "n" ele arecebe o valor 3
 na segunda linha vai pegar o valor de "n" que é 3 e vai somar + 2 , que o resultado é 5, dentro do proprio "n", e por fim o último comando
