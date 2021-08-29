@@ -47,5 +47,9 @@ Chegou a hora de aprender um pouco mais sobre as condições
 
   
 
+  <p align="center">
+
+<img alt="condições" src="https://i.ibb.co/LZ6ND12/Screenshot-3.png">
+
 ---
 <h3></h3>
