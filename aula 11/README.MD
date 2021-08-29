@@ -13,7 +13,7 @@ Primeiro temos que falar sobre sequêcias ,por que todos os códigos que a gente
 
 <p align="center">
 
-  <img alt="GitHub language count" src="https://i.ibb.co/bPxxMcz/Screenshot-3.png">
+  <img alt="sequencias" src="https://i.ibb.co/bPxxMcz/Screenshot-3.png">
 
 
 na primeira linha criamos uma varivel "n" ele arecebe o valor 3
@@ -35,6 +35,17 @@ ___
 Existem situações que : "Tem que horas que vou querer executar o comando dois, e tem horas  que eu não vou quer executar o comando dois".
 
 Chegou a hora de aprender um pouco mais sobre as condições 
+
+<p align="center">
+
+  <img alt="condições" src="https://i.ibb.co/VDxC2rY/Screenshot-1.png">
+
+
+
+
+<img alt="condições" src="hhttps://i.ibb.co/3BkWsmD/Screenshot-2.png">
+
+  
 
 ---
 <h3></h3>
