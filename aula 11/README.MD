@@ -45,17 +45,9 @@ Chegou a hora de aprender um pouco mais sobre as condições
 
 <img alt="condições" src="https://i.ibb.co/3BkWsmD/Screenshot-2.png">
 
-  
-
  <p align="center">
 
 <img alt="condições" src="https://i.ibb.co/LZ6ND12/Screenshot-3.png">
-    
-    
-<p align="center">
-
-<img alt="condições" src="https://i.ibb.co/dpLJ6TX/Screenshot-5.png">
-    
     
 
  <p align="center">
