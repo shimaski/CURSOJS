@@ -97,7 +97,7 @@ sequencias
     console.log (`digija sempre usando cinto de segurança!`);
 
 ---
-condição simples , é quando ela nao tem o else (se não )
+condição simples , é quando ela nao tem o else (se não ), quando é verdadeiro.
 
     var vel = 100
     console.log (`A velocidade do seu carro é ${vel} Km/h`);
