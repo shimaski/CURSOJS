@@ -11,12 +11,11 @@ criei uma variável numérica é real e eu coloquei dentro de vel.
 
 
 //sequencias 
-/*
+
 console.log (`A velocidade do seu carro é ${vel} Km/h`);
 console.log (`Você ultrpassou a velocidade permitida .Multado!`);
 
 console.log (`digija sempre usando cinto de segurança!`);
-*/
 
 //condição simples , é quando ela nao tem o else (se não )
 
@@ -28,5 +27,17 @@ if (vel > 60) {
 console.log (`digija sempre usando cinto de segurança!`);
 
 
+//condição composta 
 
+var país = 'EUA'
+
+console.log (`Estou vivendo em ${país}`);
+
+if (país == 'Brasil')  { //se país for igual a brasil vai ser executado esse comando;
+    console.log('Voce é Brasileiro!');
+
+}
+else{
+    console.log (' Voce é Estrangeiro!'); // se for diferente de  brasil vai ser esse comando que vai ser executado.
+}
 

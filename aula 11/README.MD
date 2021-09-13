@@ -109,4 +109,19 @@ condição simples , é quando ela nao tem o else (se não ), quando é verdadei
 ---
 
 
+condição composta 
+
+    var país = 'EUA'
+
+    console.log (`Estou vivendo em ${país}`);
+
+    if (país == 'Brasil')  { //se país for igual a brasil vai ser executado esse comando;
+    console.log('Voce é Brasileiro!');
+
+    }
+      else{
+    console.log (' Voce é Estrangeiro!'); // se for diferente de  brasil vai ser esse comando que vai ser executado.
+    }
+
+
 
