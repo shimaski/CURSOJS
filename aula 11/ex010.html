@@ -20,13 +20,13 @@
     <Script>    
 
     function calcular() {
-    var txtv = window.document.querySelector ('input#txtvel')
-    var res = window.document.querySelector('div#res')
-    var vel = Number(txtv.value)
-    res.innerHTML = `<p>Sua velocidade é  <strong> ${vel} </strong> km/h <p>`
-    res.innerHTML += `<p>Dirija sempre com sinto de segurança! </p> `
+    var txtv = window.document.querySelector ('input#txtvel') // variavel pegar o dado de entrada  
+    var vel = Number(txtv.value) // valor da string sendo convertida para numero 
+    var res = window.document.querySelector('div#res')//variavel de resultado 
+    res.innerHTML = `<p>Sua velocidade é  <strong> ${vel} </strong> km/h <p>`// contateada com texto  ${vel}
+    res.innerHTML += `<p>Dirija sempre com sinto de segurança! </p> `//soma das string 
     }
-    
+
     </Script>
 </body>
 </html>
