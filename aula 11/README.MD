@@ -125,3 +125,47 @@ condição composta
 
 
 
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Sistema de nacionalidade </h1>
+
+
+ Nacionalidade: <input type="text" name="txtcon" id="txtcon"> 
+    <input type="button" value="verificar" onclick="consulta()">
+    
+    <div id="consu"> </div>
+
+    <Script>    
+
+    function consulta() {
+    var txtpais = window.document.querySelector ('input#txtcon')
+    var pais = (txtpais.value.toLowerCase())
+    var  nacionalidade  = window.document.getElementById('consu')
+    var resultado
+
+    if(pais =='brasil') {
+        resultado ='brasileiro'
+    }
+    else{
+        resultado ='estrangeiro'
+    }
+
+    nacionalidade.innerHTML = `<p>Sua nacionalidade é <strong>${resultado}</strong></p>`
+
+}
+
+</Script>
+</body>
+</html>

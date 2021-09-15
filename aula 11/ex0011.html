@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Sistema de  Multas</h1>
+
+
+    velocidade  do carro: <input type="text" name="txtcon" id="txtcon"> km/h 
+    <input type="button" value="verificar" onclick="verificar()">
+    
+    <div id="res"> </div>
+
+    <Script>    
+
+    function verificar() {
+    var txtpais = window.document.querySelector ('input#txtcon') // variavel pegar o dado de entrada  
+    var pais = (txtpais.value.toLowerCase())
+
+    
+    if(pais =='brasil'){
+       res.innerHTML = `<p>vocé  brasilieiro do  é  <strong> ${pais} </strong> <p>`
+
+    }
+
+    else{
+
+        res.innerHTML = `<p> Estrangeiro</p> `
+    }
+   
+    
+    }
+    </Script>
+</body>
+</html>
+
+var país = 'EUA'
+
+console.log (`Estou vivendo em ${país}`);
+
+if (país == 'Brasil')  { //se país for igual a brasil vai ser executado esse comando;
+    console.log('Voce é Brasileiro!');
+
+}
+else{
+    console.log (' Voce é Estrangeiro!'); // se for diferente de  brasil vai ser esse comando que vai ser executado.
+}
