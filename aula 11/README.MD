@@ -141,5 +141,4 @@ Na verdade o que você está vendo no exemplo a baixo,a condição de cima está
 
 
 <p align="center">
-
 <img src="https://i.ibb.co/6HhGtL1/Screenshot-7.png" align="center" border="0"></a>
