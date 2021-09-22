@@ -138,6 +138,6 @@ Essa minha condição vai ter duas possibilidades.Eu posso executar um bloco e f
 lembrando que se pode fazer vários níveis.
 
 Aqui , se for verdade (true) eu faço uma e se for mentira eu faço outra.Então agora eu tenho três possibilidades, é só você olhar a quantidade de blocos que têm aqui em baixo.Sendo assim, quando eu tenho uma condição aninhada eu tenho exatamente isso aqui em baixo, uma condição dentro de outra.
-Na verdade o que você está vendo no exemplo a baixo,a condição de cima está puxando para os dois lados, eu poderia puxar para os dois lados e criar duas condições , uma dentro de cada.Não existe uma regra de aninhamento, mas pe muito comum você fazer desse jeito do exemplo abaixo,Tão comum que o javascript tem uma estrutura , um comando bem especial que é o<strong> else if</strong>
+Na verdade o que você está vendo no exemplo a baixo,a condição de cima está puxando para os dois lados, eu poderia puxar para os dois lados e criar duas condições , uma dentro de cada.Não existe uma regra de aninhamento, mas pe muito comum você fazer desse jeito do exemplo abaixo,Tão comum que o javascript tem uma estrutura , um comando bem especial que é o<h3> else if</h3>
 
 <img src="https://i.ibb.co/6HhGtL1/Screenshot-7.png" align="center" border="0"></a>
