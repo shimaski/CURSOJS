@@ -126,9 +126,18 @@ condição composta  se  precisar de blocos duplos , se uma determinada condiç�
 
 
 
-<img src="hhttps://i.ibb.co/Tq2YC8m/Screenshot-1.png" alt="logo"  align="center" border="0"></a>
+<img src="https://i.ibb.co/Tq2YC8m/Screenshot-1.png" align="center" border="0"></a>
 
 
 --- 
-condições aninhadas 
+condições aninhadas  eu vou pegar uma condição composta e vou colocar outras condições dentro dela por exemplo 
 
+Nessa condição , se for verdae faz aquele bloco ali sendo representado ali do lado, senão, eu não faço outro bloco, eu coloco outra condição e isso amplia minhas possibilidades.
+Essa minha condição vai ter duas possibilidades.Eu posso executar um bloco e fazer outra condição dentro e ir aninhando , vem de ninho, um dentro do outro.Nesse meu caso aqui, eu não vou ficar colocando um dentro do outro não , eu vou colocar só dois níveis .
+
+lembrando que se pode fazer vários níveis.
+
+Aqui , se for verdade (true) eu faço uma e se for mentira eu faço outra.Então agora eu tenho três possibilidades, é só você olhar a quantidade de blocos que têm aqui em baixo.Sendo assim, quando eu tenho uma condição aninhada eu tenho exatamente isso aqui em baixo, uma condição dentro de outra.
+Na verdade o que você está vendo no exemplo a baixo,a condição de cima está puxando para os dois lados, eu poderia puxar para os dois lados e criar duas condições , uma dentro de cada.Não existe uma regra de aninhamento, mas pe muito comum você fazer desse jeito do exemplo abaixo,Tão comum que o javascript tem uma estrutura , um comando bem especial que é o<strong> else if</strong>
+
+<img src="https://i.ibb.co/6HhGtL1/Screenshot-7.png" align="center" border="0"></a>
